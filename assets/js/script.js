@@ -65,6 +65,109 @@ function getStory(name) {
                 }
             ]
         },
+        leftpath: {
+            title: 'The trap room',
+            story: `You find yourself in a room filled with traps. You must use your skills to avoid them and find the key to unlock the door to the next room.`,
+            image: "trap.png",
+            choices: [{
+                    choice: "Search between the big traps surrounding you.",
+                    destination: 'searchtrap'
+                },
+                {
+                    choice: "Try to skip some of them to reach the ones behind",
+                    destination: 'skiptrap'
+                },
+                {
+                    choice: "Tried to use some stones to activate some traps",
+                    destination: 'usestones'
+                },
+                {
+                    choice: "Go back to the main menu",
+                    destination: 'menu'
+                }
+            ]
+        },
+        searchtrap: {
+            title: 'A good decision?',
+            story: `You find a key and opened the door, there you find a room filled with gold and jewels. You have found the treasure of Zogar!`,
+            image: "dragonsleeping.png",
+            choices: [{
+                    choice: "Fill your pockets with the gold and run away before Zogar appear",
+                    destination: 'fill'
+                },
+                {
+                    choice: "Examinate carefully the new area",
+                    destination: 'explore1'
+                },
+
+                {
+                    choice: "Go back to the main menu",
+                    destination: 'menu'
+                }
+            ]
+        },
+        fill: {
+            title: 'Grasp all, Lose all',
+            story: `While you was picking a big treasure from the top of a gold montain you notice how a big shadow cover all the room,<br> before you move the dragon smash you on the floor and cook ${name} with his flames`,
+            image: "stealinggold.png",
+            choices: [{
+                choice: "You don't have more options...",
+                destination: 'stealinggameover'
+            }]
+        },
+        explore1: {
+            title: 'What is hidden under the gold?',
+            story: `while ${name} was exploring the room noticed that close to the big chest was Zogar resting, ${name} decided to take advantage of the situation, is the pefect time for:`,
+            image: "dragonsleeping.png",
+            choices: [{
+                    choice: "Kill the dragon, cutting his throat while he is sleeping",
+                    destination: 'killdragon'
+                },
+
+                {
+                    choice: "Escape before the dragon wake up, someone else can be a hero, I will not risk",
+                    destination: 'escape1'
+                }
+            ]
+        },
+        killdragon: {
+            title: 'This is my opportunity',
+            story: `The skin of the dragon was to slippery and the sword slipped from your hands ending right in front of the angry dragon,<br> Zogar fill the room with his flames, ${name} hide behing a big pile of rocks, then Zogar approached you and when he was going to bite you the chain holded him back causing rock to cramble fallin over him.`,
+            image: "murderdragon.png",
+            choices: [{
+                choice: "You don't believe it, you defeat the dragon!",
+                destination: 'normalending'
+            }]
+        },
+        escape1: {
+            title: 'You save your live',
+            story: `${name} went back home, his family was very happy to see ${name} back, days later someone else defeat the dragon and all the town celebrate his victory, ${name} will be jealous and sad forever`,
+            image: "badend.png",
+            choices: [{
+                choice: "You don't have more options...",
+                destination: 'endgame'
+            }]
+        },
+        skiptrap: {
+            title: 'That was not a good idea..',
+            story: `You trigger a trap while you was trying to avoid one, a hole appeared under you and you fall into a pit filled with snakes.`,
+            image: "traparound.png",
+            choices: [{
+                choice: "You don't have more options...",
+                destination: 'gameover1'
+            }]
+        },
+        usestones: {
+            title: 'The trap room',
+            story: `${name} manage to desactivate some traps and the key appeared under them, but soon as you reach the key you notice that holding the key was a thin rod that activate the traps around you`,
+            image: "trap.png",
+            choices: [{
+                    choice: "Search between the big traps surrounding you.",
+                    destination: 'traparoundgameover.png'
+                },
+
+            ]
+        },
         
 
     }
