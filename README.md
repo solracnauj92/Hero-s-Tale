@@ -123,7 +123,7 @@ All Images and graphics were created via Canva. I have taken the time to design 
 
 Added audio as an interactive element to enhance the player's experience.
 
-![Royalty Free Music by Benjamin Tissot](https://www.bensound.com/royalty-free-music/track/birth-of-a-hero) 
+[Royalty Free Music by Benjamin Tissot](https://www.bensound.com/royalty-free-music/track/birth-of-a-hero/) 
 
 ---  
     
@@ -283,4 +283,4 @@ Unable to style font size from js
 
 ### **Acknowledgements** 
 - I would like to acknowledge my Code Institute mentor, Can Sücüllü, for his guidance and encouragement on this project.
-- My wife for her huge support throuhgout the project and her colleague Richey.
+- My wife for her huge support throughout the project and her colleague Richey.
