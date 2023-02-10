@@ -1,6 +1,6 @@
 # The Hero's Tale 
 
-[View live project here on GitHub](https://amylour.github.io/scoops_pp1/)
+[View live project here on GitHub](https://solracnauj92.github.io/Hero-s-Tale/)
 
 The Hero's Tale is an interactive fantasy tale website with a Choose Your Own Adventure game. The website gives the reader the option to decide how the story will develop and, ultimately, finish at different points in the narrative. The story can be concluded in any of three different ways. The reader has control over it. Basically it allows players to make decisions and choose their own path through the story, creating a personalised and unique experience for people of all ages.
   
@@ -47,6 +47,7 @@ The Hero's Tale is an interactive fantasy tale website with a Choose Your Own Ad
 * [Credits](#credits) 
  
 ---    
+![Main image](assets/images/mairesponsive.png)
 
 ## User Experience (UX)  
   
