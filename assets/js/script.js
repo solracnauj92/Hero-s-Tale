@@ -45,7 +45,7 @@ function getStory(name) {
         },
         introduction: {
             title: "Chapter 1 the misterious cave",
-            story: `The Hero's Tale is an adventure game in which the player takes on a challenge to find the legendary treasure guarded by an evil dragon, Spyron! In order to hold the highest order of royalty rank and prove to the people. <br> ${name} travels through the mountains and reaches the famous dungeon, known to be filled with mysterious creatures and challenging traps. If one is not careful, it’s game over.<br> If the ultimate champion finds the room, how is ${name} going to defeat the dragon? Is there a spell or a powerful weapon one must gather before? `,
+            story: `The Hero's Tale is an adventure game in which the player takes on a challenge to find the legendary treasure guarded by an evil dragon, Zogar! In order to hold the highest order of royalty rank and prove to the people. <br> ${name} travels through the mountains and reaches the famous dungeon, known to be filled with mysterious creatures and challenging traps. If one is not careful, it’s game over.<br> If the ultimate champion finds the room, how is ${name} going to defeat the dragon? Is there a spell or a powerful weapon one must gather before? `,
             image: "cave.png",
             choices: [{
                 choice: "Let’s find out!",
@@ -61,7 +61,7 @@ function getStory(name) {
                     destination: 'leftpath'
                 },
                 {
-                    choice: "Take the right path through the torch-lit hallway.",
+                    choice: "Take the right path through the torch-lit tunnel.",
                     destination: 'rightpath'
                 }
             ]
@@ -82,10 +82,7 @@ function getStory(name) {
                     choice: "Tried to use some stones to activate some traps",
                     destination: 'usestones'
                 },
-                {
-                    choice: "Go back to the main menu",
-                    destination: 'menu'
-                }
+                
             ]
         },
         searchtrap: {
@@ -109,7 +106,7 @@ function getStory(name) {
         },
         fill: {
             title: 'Grasp all, Lose all',
-            story: `While you was picking a big treasure from the top of a gold montain you notice how a big shadow cover all the room,<br> before you move the dragon smash you on the floor and cook ${name} with his flames`,
+            story: `While you was picking a big treasure from the top of a gold montain you notice how a big shadow cover all the room,<br> before you move, the dragon smash you on the floor and cook ${name} with his flames`,
             image: "stealinggold.png",
             choices: [{
                 choice: "You don't have more options...",
@@ -118,7 +115,7 @@ function getStory(name) {
         },
         explore1: {
             title: 'What is hidden under the gold?',
-            story: `while ${name} was exploring the room noticed that close to the big chest was Zogar resting, ${name} decided to take advantage of the situation, is the pefect time for:`,
+            story: `while ${name} was exploring the room noticed that close to the big chest was Zogar resting, ${name} decided to take advantage of the situation, it's the pefect time for:`,
             image: "dragonsleeping.png",
             choices: [{
                     choice: "Kill the dragon, cutting his throat while he is sleeping",
@@ -133,7 +130,7 @@ function getStory(name) {
         },
         killdragon: {
             title: 'This is my opportunity',
-            story: `The skin of the dragon was to slippery and the sword slipped from your hands ending right in front of the angry dragon,<br> Zogar fill the room with his flames, ${name} hide behing a big pile of rocks, then Zogar approached you and when he was going to bite you the chain holded him back causing rock to cramble fallin over him.`,
+            story: `The skin of the dragon was easy to target, you take out the sword from your hands and end in front of the angry dragon,<br> Zogar fills the room with his flames, ${name} hid behind a big pile of rocks, but when Zogar atries to get you, the chain holded him back causing the rock to break and  fall over him.`,
             image: "murderdragon.png",
             choices: [{
                 choice: "You don't believe it, you defeat the dragon!",
@@ -142,7 +139,7 @@ function getStory(name) {
         },
         escape1: {
             title: 'You save your live',
-            story: `${name} went back home, his family was very happy to see ${name} back, days later someone else defeat the dragon and all the town celebrate his victory, ${name} will be jealous and sad forever`,
+            story: `${name}  went back home, your family was very happy to see you back. But in days later someone else defeat the dragon and all the town celebrate his victory. ${name} became jealous and sad forever`,
             image: "badend.png",
             choices: [{
                 choice: "You don't have more options...",
@@ -182,7 +179,7 @@ function getStory(name) {
                     destination: 'attackgoblins'
                 },
                 {
-                    choice: "You scare them off with your fire torch alive.",
+                    choice: "You scare them off with your fire torch.",
                     destination: 'firetorch'
                 }
             ]
@@ -198,7 +195,7 @@ function getStory(name) {
         },
         attackgoblins: {
             title: 'The Three Goblins',
-            story: `${name} take out the sword and try to attack from behind but the blade break after been stuck on one of the goblins shoulder, ${name} now understand why the sword was very cheap.`,
+            story: `${name} took out the sword and try to attack from behind but the blade breaks after being stuck on one of the goblins' shoulders, ${name} now you understand why the sword was very cheap.`,
             image: "gameovergoblins.png",
             choices: [{
                 choice: `The goblins started playing with ${name} body, after that they left looking for a pot.`,
@@ -207,7 +204,7 @@ function getStory(name) {
         },
         firetorch: {
             title: 'A long tunnel',
-            story: `${name} continue to the end of the tunnel and find a room. An empty suspicious looking  room filled with square block tiles, one must pass it to go to the next doorway.`,
+            story: `${name} continue to the end of the tunnel and find a room. An empty suspicious looking room filled with square block tiles, one must pass it to go to the next doorway.`,
             image: "tunnelto6doors.png",
             choices: [{
                     choice: "Walk confidently across to reach the doorway.",
@@ -255,16 +252,16 @@ function getStory(name) {
         },
         badgold: {
             title: 'Malum aurum',
-            story: `When ${name} opened the door, discover a room full of gold, the shine of the precious metal is very strong because there is a light in the middle of the room projecting the reflexion on the room,<br> soon as you lift few bags full of gold you activate a trap. `,
+            story: `When ${name} open the door, you  find a room full of gold, the shine of the precious metal is very strong because there is a light in the middle of the room projecting the reflexion on the room, <br> You lift a few bags full of gold and you activate a trap. `,
             image: "goldlock.png",
             choices: [{
-                choice: `the door is close forever, you cannot come out of the room`,
+                choice: `The door is close forever, you cannot come out of the room`,
                 destination: 'menu'
             }]
         },
         repono: {
             title: 'Repono',
-            story: `${name} opened the door and found a room empty with some emptiy bags and boxes and few shelves looks like an empty storage`,
+            story: `${name} opened open the door and find a room storage with some empty bags, boxes and few shelves.`,
             image: "emptyroom.png",
             choices: [{
                 choice: `Go back to the main room`,
@@ -273,32 +270,32 @@ function getStory(name) {
         },
         carcer: {
             title: 'Carcer',
-            story: `${name} cannot open the door `,
+            story: `You open the door and find a room storage with some empty bags ,boxes and few shelves. `,
             image: "roomlocked.png",
             choices: [{
-                choice: `The room is locked, ${name} tried everything but still close, go back and choose a different one`,
+                choice: `${name} try to open the door, the door is locked, You tried everything but its still locked, you go back and choose a different one`,
                 destination: 'stones'
             }]
         },
         latrina: {
             title: 'Latrina',
-            story: `${name} notice that the room was very dark but went inside to check if there is any way out <br> after few steps you felt into a deep hole, the people who used to live here use this room as a latrine `,
+            story: `${name} notice that the room is very dark but still went inside to check . After a few steps you fell into a deep hole. The people who used to live here used this room as a latrine.`,
             image: "latrine.png",
             choices: [{
-                choice: `${name} died from the fall`,
+                choice: `${name} die from the fall`,
                 destination: 'gameoverhole'
             }]
         },
         draconis: {
             title: 'Domus Draconis',
-            story: `You done it! you reach the room with the treasure!`,
+            story: `You did it! You reach the room with the treasure!.`,
             image: "dragonsleeping.png",
             choices: [{
                     choice: `Explore around trying to find an alternative exit, to ensure your safety`,
                     destination: 'explore2'
                 },
                 {
-                    choice: `take enough money to fill your pockets and return back your way`,
+                    choice: `Take enough money to fill your pockets and return back your way`,
                     destination: 'fill'
                 },
                 {
@@ -309,7 +306,7 @@ function getStory(name) {
         },
         explore2: {
             title: 'What is hidden under the gold?',
-            story: `while ${name} was exploring the room noticed that close to the big chest was Zogar resting, <br> ${name} decided to take advantage of the situation, is the pefect time for:`,
+            story: `while ${name} explore the room, notice that close to the big chest is Zogar resting., <br> ${name} decided to take advantage of the situation, its the perfect time for:`,
             image: "dragonsleeping.png",
             choices: [{
                     choice: "Kill the dragon, cutting his throat while he is sleeping",
@@ -331,11 +328,11 @@ function getStory(name) {
         },
         freedragon: {
             title: 'A new friend',
-            story: `while ${name} was trying to brake the chain the dragon woke up, but ${name} continue trying to release the dragon, <br> when the dragon approached with a very scary face and close enough to eat ${name} in one bite, the dragon he stared at the hero, <br> ${name} scared continue trying to break the chain with the dragon looking carefully, <br> after 15 minutes ${name} broke the chain and the dragon was free, after that the dragon flew away`,
+            story: `while ${name} was breaking the chain of the dragon, he woke up!!!, ${name} continue trying to release the dragon although, <br> the dragon is close enough to eat ${name} in one bite, Yet, he stared at the hero, After over 10 minutes ${name} manage to break the chain and the dragon is finally set free`,
             image: "releasedragon.png",
             buttonText: "Congratulations!",
             choices: [{
-                    choice: "You done it Hero! you release the dragon from his prison hopefully he will not attack your town",
+                    choice: "You did it Hero! You release the dragon from his prison, let’s hope he will not attack your town!",
                     destination: 'betterending'
                 }
 
@@ -343,7 +340,7 @@ function getStory(name) {
         },
         monstra: {
             title: 'Hic vivere monstra',
-            story: `Soon as you opened the door a huge claw grabs you introduce you into the room and kill you.`,
+            story: `You try to open the door  but a huge claw grabs you and forces  you into the room and then kills you.`,
             image: "graphand.png",
             choices: [{
                 choice: `your story end here`,
@@ -355,13 +352,13 @@ function getStory(name) {
             story: `A hole appeared under ${name} feet, the hole was too deep... `,
             image: "gameoverhole.png",
             choices: [{
-                choice: `${name} broke his legs, few days later ${name} passed away.`,
+                choice: `${name} broke their legs, few days later ${name} passed away.`,
                 destination: 'gameoverhole'
             }]
         },
         returnbackmain: {
             title: 'Rockslide',
-            story: `While ${name} was crossing the entrance of the cave a bunches of rocks felt on the top of the hero`,
+            story: `While ${name} crosses the entrance of the cave a bunch of rocks fell on the top of the hero`,
             image: "rockslide.png",
             choices: [{
                 choice: `after been stucked 3 days ${name} died by bleeding`,
@@ -447,7 +444,7 @@ function getStory(name) {
         },
         normalending: {
             title: 'We have a new hero!',
-            story: `The hero went back to his town explaining that the dragon will not kill nobody else, <br> and with all the gold he collected they will improve the town, everybody celebrate the good news`,
+            story: `The hero went back to his town explaining that the dragon will not kill nobody else, <br> and with all the gold he collected they will improve the town, everybody celebrate the good news.`,
             image: "first.png",
             choices: [{
                     choice: "Go back to the main menu",
@@ -458,7 +455,7 @@ function getStory(name) {
         },
         betterending: {
             title: 'We have a new hero!',
-            story: `The hero went back to his town explaining that the dragon will not kill nobody else, <br> and with all the gold he collected they will improve the town, everybody celebrate the good news even the dragon was using his fire to make some fireworks in the sky <br> at the end we discovered that the dragon was not evil, he protected himself of the people who came to attack him to obtain the treasure of the real evil, Crakor, <br> who used the dragon to protect his treasure! the dragon will be loyal to ${name} forever and together they will go defeat Crakor in the next Chapter, Chapter two: Crakor the Wendigo`,
+            story: `The hero went back to his town explaining that the dragon will not kill no one. <br> With all the gold collected they will improve the town,and so everybody celebrated the good news, even the dragon was using his fire to make some fireworks in the sky! <br> at the end we discovered that the dragon was not evil, he protected himself of the people who came to attack him to obtain the treasure of the real evil,Crakor who used the dragon to protect his treasure! The dragon will now be loyal to ${name} and to the town forever. Together they will go to face Crakor in the next Chapter, Chapter two: Crakor the Wendigo`,
             image: "betterend.png",
             choices: [{
                     choice: "Go back to the main menu",

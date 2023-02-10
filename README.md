@@ -21,28 +21,16 @@ The Hero's Tale is an interactive fantasy tale website with a Choose Your Own Ad
   * [Typography](#typography)
   * [Images](#images)
   * [Audio](#Audio)
-  * [Page Features](#page-features)
-  * [Navbar](#navbar)
-  * [Hero-Image](#hero-image)
-  * [Tagline & Call to Action](#tagline--call-to-action)
-  * [Business Ethos](#business-ethos)
-  * [Menu Page](#menu-page)
-  * [Contact Page](#contact-page)
-  * [Footer](#footer)  
-  * [Tablet & Mobile View](#tablet--mobile-view)
-  * [Desktop, Tablet & Mobile Differences](#desktop-tablet--mobile-differences)
-  * [Tablet View](#tablet-view-ipad-miniipad-prosurface-pro)
-  * [Mobile View](#mobile-view-iphone-5iphone-seiphone-xriphone-12-pro)
+  * [Desktop & Mobile View](#desktop--mobile-view)
+  * [Desktop, Tablet & Mobile Differences via developer tools](#desktop-desktop--mobile-differences)
   * [Future Features](#future-features)
   * [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Frameworks, Libraries, Technologies & Programs Used](#frameworks-libraries-technologies--programs-used)
   * [Deployment](#deployment)
   * [How to deploy](#how-to-deploy)
   * [Testing](#testing)
   * [HTML Validation using W3C Validation](#html-validation-using-w3c-validation)
   * [CSS Validation using W3C Validation](#css-validation-using-w3c-validation)
-  * [Lighthouse scores via Chrome Developer Tools](#lighthouse-scores-via-chrome-developer-tools)
+  * [Javascript Validation using jshint ](#javascript-validation-using-jshint)
   * [Bugs & Fixes](#bugs--fixes)
   * [Unsolved Bugs](#unsolved-bugs)
   * [Credits](#credits) 
@@ -237,70 +225,29 @@ Testing took place throughout the entire build using Dev Tools on Chrome and on 
    
 ### **HTML Validation using W3C Validation**  
 <details open>
-<summary>Index/landing page HTML validation</summary>  
+<summary>HTML validation</summary>  
 
-![screenshot of index page w3c html validation for SCOOPS](docs/documentation/w3c_index.png)
-</details>   
-<details>
-<summary>Menu page HTML validation</summary>  
-
-![screenshot of menu page w3c html validation for SCOOPS](docs/documentation/w3c_menu.png)
+![screenshot of html](assets/images/htmlvalidator.png)
 </details>  
-<details>
-<summary>Contact page HTML validation</summary>  
 
-![screenshot of contact page w3c html validation for SCOOPS](docs/documentation/w3c_contact.png)
-</details>  
-  
 <br>  
 
 ### **CSS Validation using W3C Validation** 
 
 <details open>
-<summary>SCOOPS CSS validation</summary>  
+<summary>CSS validation</summary>  
 
-![screenshot of CSS validation for SCOOPS](docs/documentation/w3c_css.png)
+![screenshot of CSS validation](assets/images/cssvalidator.png)
 </details>   
 
 <br>  
 
-### **Lighthouse scores via Chrome Developer Tools**   
-  
-For Desktop   
+### **Javascript Validation using jshint**  
 <details open>
-<summary>Lighthouse audit for Index page</summary>  
+<summary>Javascript validation</summary>  
 
-![screenshot of lighthouse audit for index page for SCOOPS](docs/documentation/lighthouse_index.png)
-</details> 
-<details >
-<summary>Lighthouse audit for Menu page</summary>  
-
-![screenshot of lighthouse audit for menu page for SCOOPS](docs/documentation/lighthouse_menu.png)
-</details>
-<details >
-<summary>Lighthouse audit for Contact page</summary>  
-
-![screenshot of lighthouse audit for contact page for SCOOPS](docs/documentation/lighthouse_contact.png)
-</details>      
-
-<br>
-  
-For Mobile   
-<details open>
-<summary>Lighthouse audit for Index page - Mobile</summary>  
-
-![screenshot of lighthouse audit for index page for SCOOPS](docs/documentation/mobileindex_lighthouse.png)
-</details> 
-<details >
-<summary>Lighthouse audit for Menu page - Mobile</summary>  
-
-![screenshot of lighthouse audit for menu page for SCOOPS](docs/documentation/mobilemenu_lighthouse.png)
-</details>
-<details >
-<summary>Lighthouse audit for Contact page - Mobile</summary>  
-
-![screenshot of lighthouse audit for contact page for SCOOPS](docs/documentation/mobilecontact_lighthouse.png)
-</details>      
+![screenshot of html](assets/images/jsvalidator.png)
+</details>    
    
 ### **Bugs & Fixes**  
   
@@ -318,20 +265,22 @@ Unable to style font size from js
   
 ### **Content References**
 - All content written for the website is by myself, is purely fictional, and for educational purposes only.
-- [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS learning material and 'content zoom' module in the Love Running project.
-- [W3Schools](https://www.w3schools.com/) for additional learning material.
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) for flexbox tutorials and guidance.
-- [dev.to](https://dev.to/snkds/how-to-create-striped-backgrounds-with-css-5dfn) for the CSS diagonal stripes tutorial.
-- Alan from Code Institute Tutor Support for helping me with an element width issue in my media queries.
-- [StackOverflow](https://stackoverflow.com/questions/66564503/wrong-validation-on-element-br-in-ul-li-elements) guidance on removing br element from menu li items to improve semantic HTML
-- [Browserstack](https://www.browserstack.com/guide/what-are-css-and-media-query-breakpoints#:~:text=Essentially%2C%20media%20query%20breakpoints%20are,offers%20an%20optimal%20user%20experience.) for media queries and breakpoints guidance.
-- [Elaine Broche](https://github.com/elainebroche-dev/ms1-thrive) Design inspired by Elaine's striking juice website.
-- [Kera Cudmore - Creating your First README](https://github.com/kera-cudmore/readme-examples) for README structure and Markdown guidance. 
+- [Code Institute](https://codeinstitute.net/ie/) 
+- [W3Schools](https://www.w3schools.com/) 
+- [StackOverflow](https://stackoverflow.com/)
+- [@KevinBriggs](https://www.youtube.com/@kevinbriggs8354)
+- [WebDevSimplified](https://www.youtube.com/@WebDevSimplified/)
+- [BrittanyCodes](https://www.youtube.com/@brittany-codes6772)
+- [Fontawesome](https://fontawesome.com/)
+
+
+
+ 
   
 
 
 
 
 ### **Acknowledgements** 
-- I would like to acknowledge my Code Institute mentor, Rahul Lakhanpal, for his guidance and encouragement on this project.
-- My family for testing my work and offering positive thoughts and hot cups of tea throughout the project.
+- I would like to acknowledge my Code Institute mentor, Can Sücüllü, for his guidance and encouragement on this project.
+- My wife for her huge support throuhgout the project and her colleague Richey.
