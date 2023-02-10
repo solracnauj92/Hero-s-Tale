@@ -222,7 +222,250 @@ function getStory(name) {
                 }
             ]
         },
-        
+        stones: {
+            title: 'The 6 Doors',
+            image: "the6doors.png",
+            story: `No traps appear and ${name} continue to the next doorway and find six doors engraved with  mysterious looking ancient text.<br> You try to understand what it means but can’t. `,
+            choices: [{
+                    choice: "Malum aurum. 'plena aurea et captionem'",
+                    destination: 'badgold'
+                },
+                {
+                    choice: "Repono. 'ubi ut supellectilem'",
+                    destination: 'repono'
+                },
+                {
+                    choice: "Clausus locus. 'carcer'",
+                    destination: 'carcer'
+                },
+                {
+                    choice: "Latrina. praealtum foramen ubi populus puppis",
+                    destination: 'latrina'
+                },
+                {
+                    choice: "Domus draconis. 'qui pugnat draco, maledictus erit'",
+                    destination: 'draconis'
+                },
+                {
+                    choice: "Hic vivere monstra. 'locus plenus monstrorum",
+                    destination: 'monstra'
+                }
+            ]
+        },
+        badgold: {
+            title: 'Malum aurum',
+            story: `When ${name} opened the door, discover a room full of gold, the shine of the precious metal is very strong because there is a light in the middle of the room projecting the reflexion on the room,<br> soon as you lift few bags full of gold you activate a trap. `,
+            image: "goldlock.png",
+            choices: [{
+                choice: `the door is close forever, you cannot come out of the room`,
+                destination: 'menu'
+            }]
+        },
+        repono: {
+            title: 'Repono',
+            story: `${name} opened the door and found a room empty with some emptiy bags and boxes and few shelves looks like an empty storage`,
+            image: "emptyroom.png",
+            choices: [{
+                choice: `Go back to the main room`,
+                destination: 'stones'
+            }]
+        },
+        carcer: {
+            title: 'Carcer',
+            story: `${name} cannot open the door `,
+            image: "roomlocked.png",
+            choices: [{
+                choice: `The room is locked, ${name} tried everything but still close, go back and choose a different one`,
+                destination: 'stones'
+            }]
+        },
+        latrina: {
+            title: 'Latrina',
+            story: `${name} notice that the room was very dark but went inside to check if there is any way out <br> after few steps you felt into a deep hole, the people who used to live here use this room as a latrine `,
+            image: "latrine.png",
+            choices: [{
+                choice: `${name} died from the fall`,
+                destination: 'gameoverhole'
+            }]
+        },
+        draconis: {
+            title: 'Domus Draconis',
+            story: `You done it! you reach the room with the treasure!`,
+            image: "dragonsleeping.png",
+            choices: [{
+                    choice: `Explore around trying to find an alternative exit, to ensure your safety`,
+                    destination: 'explore2'
+                },
+                {
+                    choice: `take enough money to fill your pockets and return back your way`,
+                    destination: 'fill'
+                },
+                {
+                    choice: `Explore around trying to find the dragon, your duty is to save the town from the evil dragon`,
+                    destination: 'explore2'
+                },
+            ]
+        },
+        explore2: {
+            title: 'What is hidden under the gold?',
+            story: `while ${name} was exploring the room noticed that close to the big chest was Zogar resting, <br> ${name} decided to take advantage of the situation, is the pefect time for:`,
+            image: "dragonsleeping.png",
+            choices: [{
+                    choice: "Kill the dragon, cutting his throat while he is sleeping",
+                    destination: 'killdragon'
+                },
+                {
+                    choice: "Free the dragon, destroying the chain that is holding the dragon",
+                    destination: 'freedragon'
+                },
+                {
+                    choice: "Fill your pockets with the gold and run away before Zogar wake up!",
+                    destination: 'fill'
+                },
+                {
+                    choice: "Escape before the dragon wake up, someone else can be a hero, I will not risk",
+                    destination: 'escape1'
+                }
+            ]
+        },
+        freedragon: {
+            title: 'A new friend',
+            story: `while ${name} was trying to brake the chain the dragon woke up, but ${name} continue trying to release the dragon, <br> when the dragon approached with a very scary face and close enough to eat ${name} in one bite, the dragon he stared at the hero, <br> ${name} scared continue trying to break the chain with the dragon looking carefully, <br> after 15 minutes ${name} broke the chain and the dragon was free, after that the dragon flew away`,
+            image: "releasedragon.png",
+            buttonText: "Congratulations!",
+            choices: [{
+                    choice: "You done it Hero! you release the dragon from his prison hopefully he will not attack your town",
+                    destination: 'betterending'
+                }
+
+            ]
+        },
+        monstra: {
+            title: 'Hic vivere monstra',
+            story: `Soon as you opened the door a huge claw grabs you introduce you into the room and kill you.`,
+            image: "graphand.png",
+            choices: [{
+                choice: `your story end here`,
+                destination: 'menu'
+            }]
+        },
+        walkacross: {
+            title: 'A long tunnel',
+            story: `A hole appeared under ${name} feet, the hole was too deep... `,
+            image: "gameoverhole.png",
+            choices: [{
+                choice: `${name} broke his legs, few days later ${name} passed away.`,
+                destination: 'gameoverhole'
+            }]
+        },
+        returnbackmain: {
+            title: 'Rockslide',
+            story: `While ${name} was crossing the entrance of the cave a bunches of rocks felt on the top of the hero`,
+            image: "rockslide.png",
+            choices: [{
+                choice: `after been stucked 3 days ${name} died by bleeding`,
+                destination: 'menu'
+            }]
+        },
+        gameover: {
+            title: 'Do not loose your faith!',
+            story: `Try again, a real hero never loose his hope`,
+            image: "gameover.png",
+            choices: [{
+                    choice: "Go back to the main menu",
+                    destination: 'menu'
+                }
+
+            ]
+        },
+        gameover1: {
+            title: 'Do not loose your faith!',
+            story: `Try again, a real hero never loose his hope`,
+            image: "gameover1.png",
+            choices: [{
+                    choice: "Go back to the main menu",
+                    destination: 'menu'
+                }
+
+            ]
+        },
+        rockslide: {
+            title: 'Do not loose your faith!',
+            story: `Try again, a real hero never loose his hope`,
+            image: "rockslide.png",
+            choices: [{
+                    choice: "Go back to the main menu",
+                    destination: 'menu'
+                }
+
+            ]
+        },
+        gameover3: {
+            title: 'Do not loose your faith!',
+            story: `Try again, a real hero never loose his hope`,
+            image: "gameover.png",
+            choices: [{
+                    choice: "Go back to the main menu",
+                    destination: 'menu'
+                }
+
+            ]
+        },
+        stealinggameover: {
+            title: 'Do not loose your faith!',
+            story: `Try again, a real hero never loose his hope`,
+            image: "stealinggold.png",
+            choices: [{
+                    choice: "Go back to the main menu",
+                    destination: 'menu'
+                }
+
+            ]
+        },
+        gameovertrap: {
+            title: 'Do not loose your faith!',
+            story: `Try again, a real hero never loose his hope`,
+            image: "traparoundgameover.png",
+            choices: [{
+                    choice: "Go back to the main menu",
+                    destination: 'menu'
+                }
+
+            ]
+        },
+        gameoverhole: {
+            title: 'Do not loose your faith!',
+            story: `Try again, a real hero never loose his hope`,
+            image: "gameoverhole.png",
+            choices: [{
+                    choice: "Go back to the main menu",
+                    destination: 'menu'
+                }
+
+            ]
+        },
+        normalending: {
+            title: 'We have a new hero!',
+            story: `The hero went back to his town explaining that the dragon will not kill nobody else, <br> and with all the gold he collected they will improve the town, everybody celebrate the good news`,
+            image: "first.png",
+            choices: [{
+                    choice: "Go back to the main menu",
+                    destination: 'menu'
+                }
+
+            ]
+        },
+        betterending: {
+            title: 'We have a new hero!',
+            story: `The hero went back to his town explaining that the dragon will not kill nobody else, <br> and with all the gold he collected they will improve the town, everybody celebrate the good news even the dragon was using his fire to make some fireworks in the sky <br> at the end we discovered that the dragon was not evil, he protected himself of the people who came to attack him to obtain the treasure of the real evil, Crakor, <br> who used the dragon to protect his treasure! the dragon will be loyal to ${name} forever and together they will go defeat Crakor in the next Chapter, Chapter two: Crakor the Wendigo`,
+            image: "betterend.png",
+            choices: [{
+                    choice: "Go back to the main menu",
+                    destination: 'menu'
+                }
+
+            ]
+        },
 
     }
 }
