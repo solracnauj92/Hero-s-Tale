@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */ 
 var story;
 
 function getStory(name) {
@@ -162,8 +163,8 @@ function getStory(name) {
             story: `${name} manage to desactivate some traps and the key appeared under them, but soon as you reach the key you notice that holding the key was a thin rod that activate the traps around you`,
             image: "trap.png",
             choices: [{
-                    choice: "Search between the big traps surrounding you.",
-                    destination: 'traparoundgameover.png'
+                    choice: "You cannot move",
+                    destination: 'gameovertrap'
                 },
 
             ]
