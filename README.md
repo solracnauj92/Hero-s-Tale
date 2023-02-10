@@ -12,15 +12,16 @@ The Hero's Tale is an interactive fantasy tale website with a Choose Your Own Ad
 
 ## CONTENTS  
   
-* [UXD (User Experience Design)](#user-experience-ux)
+  * [UXD (User Experience Design)](#user-experience-ux)
   * [User Stories](#user-stories) 
-* [Creation process (Strategy -> Surface)](#creation-process)
+  * [Creation process (Developing a story, world building and targets)](#creation-process)
   * [Wireframes](#wireframes)
-* [Design](#design)
+  * [Design](#design)
   * [Colour Scheme](#color-scheme)
   * [Typography](#typography)
-  * [Imagery](#imagery)
-* [Page Features](#page-features)
+  * [Images](#images)
+  * [Audio](#Audio)
+  * [Page Features](#page-features)
   * [Navbar](#navbar)
   * [Hero-Image](#hero-image)
   * [Tagline & Call to Action](#tagline--call-to-action)
@@ -28,23 +29,23 @@ The Hero's Tale is an interactive fantasy tale website with a Choose Your Own Ad
   * [Menu Page](#menu-page)
   * [Contact Page](#contact-page)
   * [Footer](#footer)  
-* [Tablet & Mobile View](#tablet--mobile-view)
+  * [Tablet & Mobile View](#tablet--mobile-view)
   * [Desktop, Tablet & Mobile Differences](#desktop-tablet--mobile-differences)
   * [Tablet View](#tablet-view-ipad-miniipad-prosurface-pro)
   * [Mobile View](#mobile-view-iphone-5iphone-seiphone-xriphone-12-pro)
-* [Future Features](#future-features)
-* [Technologies Used](#technologies-used)
+  * [Future Features](#future-features)
+  * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries, Technologies & Programs Used](#frameworks-libraries-technologies--programs-used)
-* [Deployment](#deployment)
+  * [Deployment](#deployment)
   * [How to deploy](#how-to-deploy)
-* [Testing](#testing)
+  * [Testing](#testing)
   * [HTML Validation using W3C Validation](#html-validation-using-w3c-validation)
   * [CSS Validation using W3C Validation](#css-validation-using-w3c-validation)
   * [Lighthouse scores via Chrome Developer Tools](#lighthouse-scores-via-chrome-developer-tools)
   * [Bugs & Fixes](#bugs--fixes)
   * [Unsolved Bugs](#unsolved-bugs)
-* [Credits](#credits) 
+  * [Credits](#credits) 
  
 ---    
 ![Main image](assets/images/mairesponsive.png)
@@ -139,25 +140,24 @@ Added audio as an interactive element to enhance the player's experience.
 ---  
     
 
-## Desktop, Tablet & Mobile View  
+## Desktop & Mobile View  
  
-### **Desktop, Tablet & Mobile Differences**  
+### **Desktop & Mobile Differences**  
   
 This website is optimised for different sizes and devices, so that players can access the game from any device with ease.
 
 
 ### **Desktop View (Chrome/Opera/Microsoft Edge)**  
   
-![screenshots of SCOOPS website on ipad pro](docs/documentation/tablet_view.png)
-  
-### **Tablet View (Chrome/Opera/Microsoft Edge)**  
-  
-![screenshots of SCOOPS website on ipad pro](docs/documentation/tablet_view.png)
-
+![screenshots of The Hero's Tale website on Chrome](assets/images/chromedesktop.png)
+![screenshots of The Hero's Tale website on Opera](assets/images/operadesktop.png)
+![screenshots of The Hero's Tale website on Edge](assets/images/edgedesktop.png)
 
 ### **Mobile View (Chrome/Opera/Microsoft Edge)**  
   
-![screenshot of SCOOPS website on iPhone 12 Pro](docs/documentation/mobile_view.png)
+![screenshots of The Hero's Tale website on Chrome](assets/images/chromedesktop.png)
+![screenshots of The Hero's Tale website on Opera](assets/images/operamobile.png)
+![screenshots of The Hero's Tale website on Edge](assets/images/edgemobile1.png)
 
 ---  
                               
