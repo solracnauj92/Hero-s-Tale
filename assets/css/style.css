@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+body {
+    font-family: 'Poor Story', cursive, sans-serif;
+    background-color: #483d8b;
+    color: #f0f8ff;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 0.25rem;
+    background-color: var(--bs-body-bg);
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    
+}
+.bgsound {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-center {
+    text-align: center!important;
+}
