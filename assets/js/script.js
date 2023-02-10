@@ -168,6 +168,60 @@ function getStory(name) {
 
             ]
         },
+        rightpath: {
+            title: 'Angry Goblins',
+            story: `Mid way of the tunnel, you find an area filled with foul smell and rotten food.<br> You are aware of the surroundings, and are prepared for anything until you hear something, goblins!`,
+            image: "goblins.png",
+            choices: [{
+                    choice: "You run back to the main entrance.",
+                    destination: 'runback'
+                },
+                {
+                    choice: "You approach and attack the goblins.",
+                    destination: 'attackgoblins'
+                },
+                {
+                    choice: "You scare them off with your fire torch alive.",
+                    destination: 'firetorch'
+                }
+            ]
+        },
+        runback: {
+            title: 'Rockslide',
+            story: `You run back but trigger the tunnel to collapse.`,
+            image: "rockslide.png",
+            choices: [{
+                choice: `${name} is not able to move`,
+                destination: 'rockslide'
+            }]
+        },
+        attackgoblins: {
+            title: 'The Three Goblins',
+            story: `${name} take out the sword and try to attack from behind but the blade break after been stuck on one of the goblins shoulder, ${name} now understand why the sword was very cheap.`,
+            image: "gameovergoblins.png",
+            choices: [{
+                choice: `The goblins started playing with ${name} body, after that they left looking for a pot.`,
+                destination: 'menu'
+            }]
+        },
+        firetorch: {
+            title: 'A long tunnel',
+            story: `${name} continue to the end of the tunnel and find a room. An empty suspicious looking  room filled with square block tiles, one must pass it to go to the next doorway.`,
+            image: "tunnelto6doors.png",
+            choices: [{
+                    choice: "Walk confidently across to reach the doorway.",
+                    destination: 'walkacross'
+                },
+                {
+                    choice: "Try to use stones to test any traps beforehand.",
+                    destination: 'stones'
+                },
+                {
+                    choice: "Try to return back to main entrance.",
+                    destination: 'returnbackmain'
+                }
+            ]
+        },
         
 
     }
