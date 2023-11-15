@@ -1,10 +1,15 @@
-/*jshint esversion: 6 */ 
+/*jshint esversion: 6 */
+// Define a variable to store the game's story.
 var story;
 
+// Function to initialize and retrieve the game's story.
 function getStory(name) {
 
+// Create and return an object representing the game's story.
     return {
+        // Initialize the current scene to "menu".
         currentScene: "menu",
+        // Define the main menu scene.
         menu: {
             title: "The Hero's Tale",
             story: `Please ${name} select an option.`,
@@ -24,6 +29,7 @@ function getStory(name) {
 
             ]
         },
+        // Define the "How to Play" scene.
         howtoplay: {
             title: "How to Play",
             story: `Choose Your Own Adventure game typically involves making decisions and following a branching path through the story. Here are the steps to play: <br><br><br> Read the introduction: This sets the scene and introduces the protagonist, setting, and goal. <br><br> Make a decision: The game presents you with a choice, usually in the form of two or more options.<br>Turn to the designated page: The game will tell you which page to turn to based on the decision you made. <br><br> Read the outcome: The page you turn to will describe the outcome of your decision and present you with another choice. <br><br> Repeat steps 2-4: Keep making decisions and following the branching path until you reach the end of the story. <br><br> Check the ending: The ending will depend on the choices you made and the path you followed. Some endings may be good, some may be bad, and some may be a combination of both.`,
@@ -34,6 +40,7 @@ function getStory(name) {
 
             }]
         },
+        // Define the "Description" scene.
         description: {
             title: "Discover the Story",
             story: `The Hero's Tale is an adventure game in which the player takes on the role of a hero on a quest to save the world from a great evil. <br> As the hero travels through a vast and varied world filled with magic, mystery, and legendary creatures, the game features an immersive storyline, challenging puzzles, and dangerous and intrepid battles. <br> In order to emerge as the ultimate champion and restore peace to the kingdom, the player must gather allies, acquire powerful weapons and spells, and uncover the truth behind the evil threat to the land.`,
@@ -43,6 +50,7 @@ function getStory(name) {
                 destination: 'menu'
             }]
         },
+        // ... (Define other scenes and choices here)
         introduction: {
             title: "Chapter 1 the misterious cave",
             story: `The Hero's Tale is an adventure game in which the player takes on a challenge to find the legendary treasure guarded by an evil dragon, Zogar! In order to hold the highest order of royalty rank and prove to the people. <br> ${name} travels through the mountains and reaches the famous dungeon, known to be filled with mysterious creatures and challenging traps. If one is not careful, it’s game over.<br> If the ultimate champion finds the room, how is ${name} going to defeat the dragon? Is there a spell or a powerful weapon one must gather before? `,
@@ -467,25 +475,35 @@ function getStory(name) {
 
     };
 }
+// Add an event listener to execute code when the HTML content is loaded.
 document.addEventListener('DOMContentLoaded', function () {
     var button = document.querySelector('#start-button');
     var content = document.querySelector('#content');
+    // Event listener for the button click.
     button.addEventListener('click', function () {
-        var name = document.querySelector('#name-input');
+        var name = document.querySelector('#name-input');// Get a reference to the name input field
+        // Initialize the game's story.
         story = getStory(name.value);
         renderScene();
     });
 });
 
+// Function to render the current scene.
 function renderScene() {
+    // Initialize button text and image variables.
     var text = "Next";
     var image = "";
+    // Check if the current scene has an associated image.
     if (story[story.currentScene].image) {
     image = "<img></img>";
     }
+
+    // Check if the current scene has custom button text.
     if (story[story.currentScene].buttonText) {
         text = story[story.currentScene].buttonText;
     }
+
+    // Update the HTML content with the scene's information.
     content.innerHTML = `
     <h1>${story[story.currentScene].title}</h1>
     <p>${story[story.currentScene].story}</p>
@@ -493,9 +511,13 @@ function renderScene() {
     ${getInputs()}
     <button id = "submit-button" >${text}</button>
     `;
+
+    // If the current scene has an image, set its source.
     if (story[story.currentScene].image) {
         document.querySelector("img").src = `assets/images/${story[story.currentScene].image}`;
     }
+
+    // Add an event listener to the submit button.
     var button = document.querySelector("#submit-button");
     button.addEventListener('click', function () {
         getInputValue();
@@ -503,8 +525,12 @@ function renderScene() {
 
 }
 
+// Function to handle user input and update the current scene.
 function getInputValue() {
+    // Get all radio input elements.
     var inputs = document.querySelectorAll('input[type="radio"]');
+
+    // Check which radio button is selected.
     for (var i = 0; i < inputs.length; i++) {
         if (inputs[i].checked) {
             story.currentScene = inputs[i].getAttribute('data-destination');
@@ -512,15 +538,19 @@ function getInputValue() {
             return;
         }
     }
+    // Update the current scene based on the selected destination.
     story.currentScene = story[story.currentScene].defaultDestination;
     renderScene();
 }
 
+// Function to generate HTML radio inputs for choices.
 function getInputs() {
     var input = "";
+    // Check if the current scene has choices.
     if (!story[story.currentScene].choices) {
         return "";
     }
+    // Create radio inputs and labels for each choice.
     for (var i = 0; i < story[story.currentScene].choices.length; i++) {
         input += `
       <div>
