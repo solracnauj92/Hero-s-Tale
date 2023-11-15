@@ -1,4 +1,7 @@
 /*jshint esversion: 6 */
+// This game structure is inspired by the Choose Your Own Adventure books.
+// Adapted from [Kevin Briggs' tutorial: https://www.youtube.com/watch?v=kayFBMl06q8&t=3582s].
+
 // Define a variable to store the game's story.
 var story;
 
