@@ -519,12 +519,21 @@ function getStory(name) {
 document.addEventListener('DOMContentLoaded', function () {
     var button = document.querySelector('#start-button');
     var content = document.querySelector('#content');
+    var nameInput = document.querySelector('#name-input');// Get a reference to the name input field
+
     // Event listener for the button click.
     button.addEventListener('click', function () {
-        var name = document.querySelector('#name-input');// Get a reference to the name input field
+        // Get the player's name from the input field and trim whitespace from the input.
+        var playerName = nameInput.value.trim(); 
+        // Check if the name is not empty
+        if (playerName !== '') { 
         // Initialize the game's story.
-        story = getStory(name.value);
-        renderScene();
+            story = getStory(name.value);
+            renderScene();
+        } else {
+            // Display an error message or alert the user to enter a name.
+            alert('Please enter your name before starting the game.');
+        }   
     });
 });
 
