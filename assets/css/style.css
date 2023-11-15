@@ -32,3 +32,23 @@ img {
 .text-center {
     text-align: center !important;
 }
+/* Default text size for choice labels */
+.choice-label {
+    font-size: 16px; 
+}
+
+/* Media query for screens up to 768px width */
+@media (max-width: 768px) {
+    
+    .choice-label {
+        font-size: 14px;
+    }
+}
+
+/* Media query for screens up to 480px width */
+@media (max-width: 480px) {
+    
+    .choice-label {
+        font-size: 12px;
+    }
+}
