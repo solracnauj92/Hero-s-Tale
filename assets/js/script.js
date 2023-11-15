@@ -578,18 +578,25 @@ function renderScene() {
 function getInputValue() {
     // Get all radio input elements.
     var inputs = document.querySelectorAll('input[type="radio"]');
+    var selectedInput = null;
 
     // Check which radio button is selected.
     for (var i = 0; i < inputs.length; i++) {
         if (inputs[i].checked) {
-            story.currentScene = inputs[i].getAttribute('data-destination');
-            renderScene();
-            return;
+            selectedInput = inputs[i];
+            break;
         }
     }
-    // Update the current scene based on the selected destination.
-    story.currentScene = story[story.currentScene].defaultDestination;
-    renderScene();
+
+    if (selectedInput) {
+        // Update the current scene based on the selected destination.
+        story.currentScene = selectedInput.getAttribute('data-destination');
+        // Render the next scene.
+        renderScene();
+    } else {
+        // Display an error message if no option is selected.
+        alert('Please select an option before continuing.');
+    }
 }
 
 // Function to generate HTML radio inputs for choices.
