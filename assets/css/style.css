@@ -6,16 +6,16 @@ body {
     font-family: 'Poor Story', cursive, sans-serif;
     background-color: #483d8b;
     color: #f0f8ff;
+    margin: 20px;
 }
+
 
 /* Styling for images */
 img {
+    display: block;
+    margin: auto;
     max-width: 100%;
     height: auto;
-    padding: 0.25rem;
-    background-color: var(--bs-body-bg);
-    border: var(--bs-border-width) solid var(--bs-border-color);
-    border-radius: var(--bs-border-radius);
 
 }
 
