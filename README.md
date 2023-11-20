@@ -2,11 +2,20 @@
 
 [View live project here on GitHub](https://solracnauj92.github.io/Hero-s-Tale/)
 
-The Hero's Tale is an interactive fantasy tale website with a Choose Your Own Adventure game. The website gives the reader the option to decide how the story will develop and, ultimately, finish at different points in the narrative. The story can be concluded in any of three different ways. The reader has control over it. Basically it allows players to make decisions and choose their own path through the story, creating a personalised and unique experience for people of all ages.
-  
-<br>  
-  
+I'm thrilled to introduce "Hero's Tale," a Choose Your Own Adventure website created using Javascript, forming a significant part of Portfolio Project 2.
+
 ![Main image](assets/images/main.png)
+
+## Intro & Inspiration
+
+Growing up, my passion for gaming and fascination with the game industry motivated me to learn coding, harbouring the hope of someday entering that very realm.
+This project gave me an exciting opportunity —to create a game! "The Hero's Tale," a choose-your-own-adventure game.
+
+With my background in gaming, strategy, and storytelling, I'm crafting this interactive fantasy on a website. 
+You get to call the shots—there are three different endings, and it's all up to you. 
+I want everyone of all ages to have fun with their own unique journey through this game.
+
+<br>  
 
 ---
 
