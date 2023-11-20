@@ -542,9 +542,11 @@ function renderScene() {
     // Initialize button text and image variables.
     var text = "Next";
     var image = "";
+    var altText = "";
     // Check if the current scene has an associated image.
     if (story[story.currentScene].image) {
     image = "<img></img>";
+    altText = story[story.currentScene].alt;
     }
 
     // Check if the current scene has custom button text.
@@ -561,9 +563,11 @@ function renderScene() {
     <button id = "submit-button" >${text}</button>
     `;
 
-    // If the current scene has an image, set its source.
+    // If the current scene has an image, set its source and alt text.
     if (story[story.currentScene].image) {
-        document.querySelector("img").src = `assets/images/${story[story.currentScene].image}`;
+        var imgElement = document.querySelector("img");
+        imgElement.src = `assets/images/${story[story.currentScene].image}`;
+        imgElement.alt = altText; // Set alt text
     }
 
     // Add an event listener to the submit button.
