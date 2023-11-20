@@ -559,7 +559,9 @@ function renderScene() {
     <h1>${story[story.currentScene].title}</h1>
     <p>${story[story.currentScene].story}</p>
     ${image}
+    <br>
     ${getInputs()}
+    <br>
     <button id = "submit-button" >${text}</button>
     `;
 
