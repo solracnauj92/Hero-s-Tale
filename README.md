@@ -57,13 +57,43 @@ I want everyone of all ages to have fun with their own unique journey through th
 
 -----
 
-![Main image](assets/images/mairesponsive.png)
+# User Experience - UX
 
-## User Experience (UX)  
-  
-### **User Stories**  
+## Aim 
 
-### **Goal**  
+- **Interactive Storytelling:** Engage with an immersive fantasy narrative where your decisions steer the course of the tale.
+- **Multiple Endings:** Explore different storylines and experience varied conclusions based on your choices.
+- **JavaScript-Based:** Developed primarily using JavaScript, ensuring a dynamic and responsive user experience.
+- **User-Friendly Interface:** Simple and intuitive design for easy navigation and enjoyment for users of all ages.
+
+## Target
+
+- **Provide Entertainment:** Offering an engaging and enjoyable experience through interactive storytelling.
+- **Stimulate Imagination:** Encouraging users to visualise and engage with a rich fantasy world.
+- **Empower Decision-Making:** Allowing users to shape their own adventure, emphasising the significance of choices.
+- **Deliver Personalised Experiences:** Creating unique narratives tailored to each user's decisions and preferences.
+
+## User Persona 
+
+ ### Tech Enthusiast Sarah:
+
+Background: Sarah is a tech enthusiast and coding novice eager to explore creative coding projects. She's interested in simple and engaging projects to improve her coding skills.
+<br>
+Goals: Learn coding basics, have fun with interactive projects, and gain hands-on experience.
+
+### Busy Parent Alex:
+
+Background: Alex is a busy parent with limited time for recreational activities. Looking for games that offer a quick, enjoyable escape, Alex values simplicity and engaging content.
+<br>
+Goals: Find a game that provides a brief, entertaining experience during short breaks or downtime.
+
+### Gaming Veteran Jordan:
+
+Background: Jordan is a seasoned gamer with a love for complex narratives and decision-based games. Seeking a new and immersive experience, Jordan appreciates games that challenge strategic thinking.
+<br>
+Goals: Explore a unique, narrative-driven game that offers multiple story paths and challenges decision-making skills.
+
+## **Goal**  
   
 Visitors to the website may come there for reasons other than finishing the quest, such as to take in the fascinating and engaging story that puts them in control of the outcome. To  provide players a chance to escape reality and experience various scenarios. The game intends to serve as a sort of escapism plus visitors can test and develop their decision-making abilities by making choices and then seeing the results of those actions.
 
@@ -84,9 +114,9 @@ As Frequent visitors, they would frequently check to see whether the narrative h
 
 --- 
 
-## Creation Process  
+# Creation Process  
   
-### **1. Developing a story**  
+## Developing a story
 
 
 As I was researching, I understood what was required to build a story. Plus, I had played and read a number of books with a similar theme. It was clear I needed a straightforward yet well-organised game with obvious goals, obstacles, and outcomes to increase interaction and engagement.
@@ -96,16 +126,28 @@ I ended by choosing the Dragons and dungeons theme as they are the classic eleme
 
   
 
-### **2. World building**  
+## World building
 
 Wrote out the text for each part of the story, including descriptions of the scene, characters, and actions. I made sure to include the decisions that the player will make and the consequences that follow. 
 
 ![World building](assets/images/worldbuilding.png)
   
 
-### **3. Targets**  
+### Story structure for Javascript
 
-This game is designed to be easy to play and understand, making them accessible for people of all ages, including children and older adults. Plus it’s a game that can be highly engaging, as players must make decisions and solve problems in order to progress through the story. This can keep players of all ages invested and interested in the game.  
+The Hero's Tale is organised into distinct scenes, each representing a chapter or significant point in the narrative. The structure follows a simple format for ease of understanding and modification.
+
+- Scenes
+Each scene is defined as an object with the following properties:
+
+- Title: Describes the title of the scene.
+- Story: Contains the narrative content, including dynamic elements if necessary (e.g., player's name).
+- Image: Refers to an image associated with the scene, enhancing the visual experience.
+- Alt: Provides alternative text for accessibility purposes.
+- Choices: Represents an array of choices available to the player. Each choice consists of a label and a destination, indicating the next scene.
+
+#### Example
+
 
   
 ### **4. Wireframes & Navigation**  
@@ -152,6 +194,7 @@ Added audio as an interactive element to enhance the player's experience.
 ## Desktop & Mobile View  
  
 ### **Desktop & Mobile Differences**  
+![Main image](assets/images/mairesponsive.png)
   
 This website is optimised for different sizes and devices, so that players can access the game from any device with ease.
 
