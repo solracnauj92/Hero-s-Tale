@@ -150,7 +150,7 @@ function getStory(name) {
         },
         killdragon: {
             title: 'This is my opportunity',
-            story: `The skin of the dragon was easy to target, you take out the sword from your hands and end in front of the angry dragon,<br> Zogar fills the room with his flames, ${name} hid behind a big pile of rocks, but when Zogar atries to get you, the chain holded him back causing the rock to break and  fall over him.`,
+            story: `The skin of the dragon was easy to target, you take out the sword from your hands and end in front of the angry dragon,<br> Zogar fills the room with his flames, ${name} hid behind a big pile of rocks,<br> but when Zogar atries to get you, the chain holded him back causing the rock to break and  fall over him.`,
             image: "murderdragon.png",
             alt: "image of a dragon attacked",
             choices: [{
@@ -502,7 +502,10 @@ function getStory(name) {
         },
         betterending: {
             title: 'We have a new hero!',
-            story: `The hero went back to his town explaining that the dragon will not kill no one. <br> With all the gold collected they will improve the town,and so everybody celebrated the good news, even the dragon was using his fire to make some fireworks in the sky! <br> at the end we discovered that the dragon was not evil, he protected himself of the people who came to attack him to obtain the treasure of the real evil,Crakor who used the dragon to protect his treasure! The dragon will now be loyal to ${name} and to the town forever. Together they will go to face Crakor in the next Chapter, Chapter two: Crakor the Wendigo`,
+            story: `The hero went back to his town explaining that the dragon will not kill no one. <br> With all the gold collected they will improve the town,and so everybody celebrated the good news,<br> 
+            even the dragon was using his fire to make some fireworks in the sky! <br> at the end we discovered that the dragon was not evil, he protected himself of the people who came to attack him to obtain the treasure of the real evil,<br>
+            Crakor who used the dragon to protect his treasure! The dragon will now be loyal to ${name} and to the town forever. <br>
+            Together they will go to face Crakor in the next Chapter, Chapter two: Crakor the Wendigo`,
             image: "betterend.png",
             alt: "image of the best ending main character people in the town and drangon are happy",
             choices: [{
