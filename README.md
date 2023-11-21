@@ -52,6 +52,7 @@ I want everyone of all ages to have fun with their own unique journey through th
       - [Cloning and Forking](#cloning-forking)
   - [Technologies Used](#testing)
   - [Credits](#credits)
+      - [Content References](#content-references)
       - [Acknowledgement](#acknowledgement)
 
 -----
@@ -148,7 +149,8 @@ Each scene is defined as an object with the following properties:
 #### Example 
 ![Example](assets/images/jsstory.png)
 
-  
+This game structure credit goes to [Kevin Briggs' tutorial: https://www.youtube.com/watch?v=kayFBMl06q8&t=3582s
+
 ### **4. Wireframes & Navigation**  
 
 A wireframe was executed  to plan and organise the content and functionality of a website, making it easier to design and build the site. Keeping in mind the user experience and ensuring that the website is easy to navigate and use. Plus determine the user interface and navigation for the game, including how the player will make decisions and how they will be taken to the next part of the story.
@@ -324,9 +326,9 @@ Unable to style font size from js
 
 ---  
 
-## Credits  
+# Credits  
   
-### **Content References**
+## Content References
 - All content written for the website is by myself, is purely fictional, and for educational purposes only.
 - [Code Institute](https://codeinstitute.net/ie/) 
 - [W3Schools](https://www.w3schools.com/) 
@@ -336,14 +338,7 @@ Unable to style font size from js
 - [BrittanyCodes](https://www.youtube.com/@brittany-codes6772)
 - [Fontawesome](https://fontawesome.com/)
 
-
-
- 
-  
-
-
-
-
-### **Acknowledgements** 
+## Acknowledgement 
 - I would like to acknowledge my Code Institute mentor, Can Sücüllü, for his guidance and encouragement on this project.
 - My wife for her huge support throughout the project and her colleague Richey.
+- The Code Institute Assessment Team for identifying and providing in depth feedback to resubmit this project and improve it. 
