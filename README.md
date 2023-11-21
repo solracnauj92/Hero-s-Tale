@@ -8,8 +8,7 @@ I'm thrilled to introduce "Hero's Tale," a Choose Your Own Adventure website cre
 
 ## Intro & Inspiration
 
-Growing up, my passion for gaming and fascination with the game industry motivated me to learn coding, harbouring the hope of someday entering that very realm.
-This project gave me an exciting opportunity —to create a game! "The Hero's Tale," a choose-your-own-adventure game.
+Growing up, my love for games led me to learn coding with dreams of joining the game industry. Excitingly, this passion project came along – "The Hero's Tale," a choose-your-own-adventure game. Inspired by the adventure books I devoured growing up, it's a nod to childhood joy and a journey into the gaming world! 
 
 With my background in gaming, strategy, and storytelling, I'm crafting this interactive fantasy on a website. 
 You get to call the shots—there are three different endings, and it's all up to you. 
@@ -146,8 +145,8 @@ Each scene is defined as an object with the following properties:
 - Alt: Provides alternative text for accessibility purposes.
 - Choices: Represents an array of choices available to the player. Each choice consists of a label and a destination, indicating the next scene.
 
-#### Example
-
+#### Example 
+![Example](assets/images/jsstory.png)
 
   
 ### **4. Wireframes & Navigation**  

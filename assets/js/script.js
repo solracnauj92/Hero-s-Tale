@@ -531,7 +531,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Check if the name is not empty
         if (playerName !== '') { 
         // Initialize the game's story.
-            story = getStory(name.value);
+            story = getStory(playerName);
             renderScene();
         } else {
             // Display an error message or alert the user to enter a name.
