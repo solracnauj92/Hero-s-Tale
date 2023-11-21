@@ -50,7 +50,7 @@ I want everyone of all ages to have fun with their own unique journey through th
  - [Deployment](#deployment)
       - [How to Deploy](#how-to-deploy)
       - [Cloning and Forking](#cloning-forking)
-  - [Technologies Used](#testing)
+  - [Technologies Used](#technologies-used)
   - [Credits](#credits)
       - [Content References](#content-references)
       - [Acknowledgement](#acknowledgement)
@@ -227,39 +227,6 @@ This website is optimised for different sizes and devices, so that players can a
 -Add social sharing functionality, allowing players to share their progress and choices with friends, creating a sense of community around the game.
 
 -Implement analytics to track player behaviour and gather data, which can be used to make improvements to the game and create a better experience for players.
-  
----   
-  
-## Technologies Used    
-
-- HTML
-    - HTML is used to structure and use Bootstrap components by adding specific classes.
-- CSS
-    - CSS is used to style and personalise Bootstrap components used for the website
-- [Bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-    - bootstrap was used for html home page.
-- Google Fonts
-        - [Poor Story, by Yoon Design](https://fonts.google.com/specimen/Poor+Story)
-- [Figma](https://www.figma.com)
-    - The wireframe and the world building was pre-planned and designed via Figma. 
-- [Canva](https://www.canva.com/)
-    - Canva was used for: 
-      - Granting copyright free graphics
-      - Designing and testing visuals 
-- [Coolors](https://coolors.co/)
-    - Generated the brand colour palatte
-- [QuillBot](https://quillbot.com/)
-    - QuillBot was used scan writings and alert any errors in grammar, spelling, punctuation as well as rephrase any research used for the website
-- [ChatGPT](https://openai.com/blog/chatgpt/)
-    - This was used inform a summary of a topic
-- GitHub 
-    - Stores, manages, and track changes to the project code
-- Chrome DevTools
-    - Chrome DevTools helped to debug, inspect, test the website's responsive design and check performance analysis tools
-- [Am I responsive](https://ui.dev/amiresponsive)
-    - Mock up and check responsiveness across different devices 
-
----   
  
 ## Deployment
 
@@ -324,8 +291,35 @@ The javascript extension was giving me errors; I deleted it and restored it, and
 Applied bootstrap to html but it doesn’t apply to the rest
 Unable to style font size from js 
 
----  
+  
+# Technologies Used    
 
+- HTML
+    - HTML is used to structure and use Bootstrap components by adding specific classes.
+- CSS
+    - CSS is used to style and personalise Bootstrap components used for the website
+- Google Fonts
+        - [Poor Story, by Yoon Design](https://fonts.google.com/specimen/Poor+Story)
+- [Figma](https://www.figma.com)
+    - The wireframe and the world building was pre-planned and designed via Figma. 
+- [Canva](https://www.canva.com/)
+    - Canva was used for: 
+      - Granting copyright free graphics
+      - Designing and testing visuals 
+- [Coolors](https://coolors.co/)
+    - Generated the brand colour palatte
+- [QuillBot](https://quillbot.com/)
+    - QuillBot was used scan writings and alert any errors in grammar, spelling, punctuation as well as rephrase any research used for the website
+- [ChatGPT](https://openai.com/blog/chatgpt/)
+    - This was used inform a summary of a topic
+- GitHub 
+    - Stores, manages, and track changes to the project code
+- Chrome DevTools
+    - Chrome DevTools helped to debug, inspect, test the website's responsive design and check performance analysis tools
+- [Am I responsive](https://ui.dev/amiresponsive)
+    - Mock up and check responsiveness across different devices 
+
+  
 # Credits  
   
 ## Content References
