@@ -148,17 +148,26 @@ Each scene is defined as an object with the following properties:
 
 This game structure credit goes to [Kevin Briggs' tutorial: https://www.youtube.com/watch?v=kayFBMl06q8&t=3582s
 
-## Wireframes  
+# Wireframes  
 
-### Front Main Page Wireframe mockup
+![Wireframe](assets/images/wireframe.png)
+A wireframe was executed  to plan and organise the content and functionality of a website, making it easier to design and build the site. Keeping in mind the user experience and ensuring that the website is easy to navigate and use. Plus determine the user interface and navigation for the game, including how the player will make decisions and how they will be taken to the next part of the story.
+### Front Main Page Wireframe mockup across all devices
 ![Wireframe Main](assets/images/wireframemain.jpg)
 
-### Story Page Wireframe mockup
+### Story Page Wireframe mockup across all devices
 ![Wireframe Story](assets/images/wireframestory.jpg)
 
-A wireframe was executed  to plan and organise the content and functionality of a website, making it easier to design and build the site. Keeping in mind the user experience and ensuring that the website is easy to navigate and use. Plus determine the user interface and navigation for the game, including how the player will make decisions and how they will be taken to the next part of the story.
- 
-![Wireframe](assets/images/wireframe.png)
+## Features
+### Background Music  
+![audiobox](assets/images/audiobox.png)
+Adding background music with user-controlled playback to offer  a customisable and immersive experience. 
+<br> It accommodates diverse player preferences, enhances atmosphere, and promotes accessibility.  Providing this feature contributes to a more enjoyable and inclusive gaming experience.
+
+
+### Input Name
+Personalised Gaming Experience and customisation! Input preferred name, and watch the game come to life. Characters will be addressed by the name the user chooses, making the gaming adventure unique. 
+![imputname](assets/images/inputname.png)
   
   
 # Design & Media
