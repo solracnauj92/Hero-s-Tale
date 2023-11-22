@@ -31,7 +31,8 @@ I want everyone of all ages to have fun with their own unique journey through th
     - [World Building](#world-building)
     - [Story Structure for Javascript](#story-structure)
  - [Wireframe](#wireframe)
-    - [Features & Responsiveness](#features)
+    - [Features](#features)
+    - [Responsiveness](#responsiveness)
     - [Future Features](#future-features)
 - [Design & Media](#design)
     - [Colour Palette](#colour-palette)
@@ -42,7 +43,7 @@ I want everyone of all ages to have fun with their own unique journey through th
       - [HTML Validation](#html-validation)
       - [CSS Validation](#css-validation)
       - [Javascript Validation](#javascript-validation)
-      - [Bugs & Fixes](#bugs-fixes)
+      - [Feedback, Bugs & Fixes](#feedback-bugs-fixes)
  - [Deployment](#deployment)
       - [How to Deploy](#how-to-deploy)
       - [Cloning and Forking](#cloning-forking)
@@ -157,7 +158,7 @@ A wireframe was executed  to plan and organise the content and functionality of 
 ### Story Page Wireframe mockup across all devices
 ![Wireframe Story](assets/images/wireframestory.jpg)
 
-## Features
+# Features
 
 ### Background Music  
 ![audiobox](assets/images/audiobox.png)
@@ -187,7 +188,8 @@ The choices box serves as a guide, providing crucial information about gameplay,
 <br>
 Visuals in a game are crucial for immersion and storytelling. Matching visuals to the game's scene creates a cohesive and immersive experience, drawing players into the world and enhancing their emotional connection to the game's narrative and environment. 
 
-### Responsiveness 
+
+## Responsiveness 
 
 ![Main image](assets/images/amiresponsive.png)
   
@@ -306,14 +308,36 @@ Source or for more infomraiton: [GitHub](https://docs.github.com/en/repositories
 
 <br>  
 
-## **Javascript Validation using jshint**  
+## Javascript Validation using jshint  
 <details open>
 <summary>Javascript validation</summary>  
 
 ![screenshot of html](assets/images/jsvalidator.png)
 </details>    
    
-## **Bugs & Fixes**  
+## Feedback, Bugs & Fixes  
+In response to valuable feedback from the Code Institute Assessment Team, I have diligently reviewed and implemented necessary improvements to the specified section. This thorough examination allowed me to address identified issues and enhance the overall quality of the code. By adhering to the team's guidance, I have successfully refined and fixed elements that required attention, ensuring a more robust and effective implementation. 
+
+### Audio player box 
+The audio player used to automatically start playing upon entering the page, but I've since removed the autoplay feature from the code. This adjustment gives users the freedom to decide whether they want to play the music or not. I now recognise the importance of giving users the choice to initiate media playback, making it a better practice for a more user-friendly experience.
+
+### Name input 
+I've encountered issues entering forms without warning, and errors were not being handled properly in certain cases. I've addressed these concerns by adding a label for the story and implementing the following changes.
+
+![nameinput](assets/images/nameinput.png)
+
+I have also fix code in Script.js for the generation of radio inputs and labels by adding '=' <label for="radio${i}">${story[story.currentScene].choices[i].choice}</label>. Previously the error message would be displayed:
+
+![labelfor](assets/images/labelfor.png)
+
+### Adding 'alt' attribute to images in both HTML & JS
+In my previous version, I forgot to add the alt attribute to images which is crucial for web accessbility.  It provides a text alternative for screen readers, aiding users with visual impairments. Additionally, it enhances SEO by helping search engines understand image content. The "alt" attribute also serves as a fallback, displaying descriptive text if images fail to load. In essence, it ensures the website is more inclusive and user-friendly.
+
+### Corrected message display for choices
+In the earlier version, the website didn't show an error message when users proceeded without making choices, enabling them to advance to the next page without selecting an option. I have now addressed this in JavaScript by incorporating an alert prompting users to select an option before proceeding.
+
+![choices](assets/images/choices.png)
+
 
 
   
