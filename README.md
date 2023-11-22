@@ -72,7 +72,12 @@ I want everyone of all ages to have fun with their own unique journey through th
 
 ## User Persona 
 
+User Persona was generated using [User Persona . dev](https://userpersona.dev/). A free fictional AI-powered User Persona Generator. 
+
  ### Tech Enthusiast Sarah:
+
+![User Persona](assets/images/user-persona.png)
+
 
 Background: Sarah is a tech enthusiast and coding novice eager to explore creative coding projects. She's interested in simple and engaging projects to improve her coding skills.
 <br>
@@ -146,12 +151,12 @@ Each scene is defined as an object with the following properties:
 #### Example 
 ![Example](assets/images/jsstory.png)
 
-This game structure credit goes to [Kevin Briggs' tutorial: https://www.youtube.com/watch?v=kayFBMl06q8&t=3582s
+This game structure credit goes to [Kevin Briggs' tutorial: https://www.youtube.com/watch?v=kayFBMl06q8&t=3582s]
 
 # Wireframes  
 
 ![Wireframe](assets/images/wireframe.png)
-A wireframe was executed  to plan and organise the content and functionality of a website, making it easier to design and build the site. Keeping in mind the user experience and ensuring that the website is easy to navigate and use. Plus determine the user interface and navigation for the game, including how the player will make decisions and how they will be taken to the next part of the story.
+A wireframe was executed using Figma to plan and organise the content and functionality of a website, making it easier to design and build the site. Keeping in mind the user experience and ensuring that the website is easy to navigate and use. Plus determine the user interface and navigation for the game, including how the player will make decisions and how they will be taken to the next part of the story.
 ### Front Main Page Wireframe mockup across all devices
 ![Wireframe Main](assets/images/wireframemain.jpg)
 
