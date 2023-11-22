@@ -193,20 +193,33 @@ Visuals in a game are crucial for immersion and storytelling. Matching visuals t
 
 ![Main image](assets/images/amiresponsive.png)
   
-This website is optimised for different sizes and devices, so that players can access the game from any device with ease.
+This website is optimised for different sizes and devices, so that players can access the game from any device with ease. This has been tested on - [AmIResponsive](https://ui.dev/amiresponsive) as well on Chrome Dev tools for different deviees including tablets.
+
+### Media Queries 
+
+Media query implementation in the CSS
+
+![CSS](assets/images/css.png)
 
 
-### **Desktop View (Chrome/Opera/Microsoft Edge)**  
-  
-![screenshots of The Hero's Tale website on Chrome](assets/images/chromedesktop.png)
-![screenshots of The Hero's Tale website on Opera](assets/images/operadesktop.png)
-![screenshots of The Hero's Tale website on Edge](assets/images/edgedesktop.png)
+### Testings 
+ - Lighthouse Report for both desktop and mobile on Chrome
+ <br> <br>
 
-### **Mobile View (Chrome/Opera/Microsoft Edge)**  
-  
-![screenshots of The Hero's Tale website on Chrome](assets/images/chromedesktop.png)
-![screenshots of The Hero's Tale website on Opera](assets/images/operamobile.png)
-![screenshots of The Hero's Tale website on Edge](assets/images/edgemobile1.png)
+![Desktop Performance](assets/images/desktopperformance.png)
+![Mobile Performance](assets/images/mobileperformance.png)
+
+ - Lighthouse Report for both desktop and mobile on Opera
+ <br> <br>
+
+ ![Desktop Performance Opera](assets/images/mobileperformanceopera.png)
+ ![Mobile Performance Opera](assets/images/desktopperformanceopera.png)
+
+ - Lighthouse Report for both desktop and mobile on Edge
+ <br> <br>
+ ![Desktop Performance Edge](assets/images/mobileperformanceedge.png)
+ ![Mobile Performance Edge](assets/images/desktopperformanceedge.png)
+
 
 ---  
 
@@ -312,7 +325,7 @@ Source or for more infomraiton: [GitHub](https://docs.github.com/en/repositories
 <details open>
 <summary>Javascript validation</summary>  
 
-![screenshot of html](assets/images/jsvalidator.png)
+![screenshot of js](assets/images/jsvalidation.png)
 </details>    
    
 ## Feedback, Bugs & Fixes  
