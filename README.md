@@ -31,11 +31,8 @@ I want everyone of all ages to have fun with their own unique journey through th
     - [World Building](#world-building)
     - [Story Structure for Javascript](#story-structure)
  - [Wireframe](#wireframe)
-    - [Desktop](#desktop)
-    - [Tablet](#tablet)
-    - [Mobile](#mobile)
     - [Features & Responsiveness](#features)
-    -[Future Features](#future-features)
+    - [Future Features](#future-features)
 - [Design & Media](#design)
     - [Colour Palette](#colour-palette)
     - [Typography](#typography)
@@ -151,46 +148,47 @@ Each scene is defined as an object with the following properties:
 
 This game structure credit goes to [Kevin Briggs' tutorial: https://www.youtube.com/watch?v=kayFBMl06q8&t=3582s
 
-### **4. Wireframes & Navigation**  
+## Wireframes  
+
+### Front Main Page Wireframe mockup
+![Wireframe Main](assets/images/wireframemain.jpg)
+
+### Story Page Wireframe mockup
+![Wireframe Story](assets/images/wireframestory.jpg)
 
 A wireframe was executed  to plan and organise the content and functionality of a website, making it easier to design and build the site. Keeping in mind the user experience and ensuring that the website is easy to navigate and use. Plus determine the user interface and navigation for the game, including how the player will make decisions and how they will be taken to the next part of the story.
  
 ![Wireframe](assets/images/wireframe.png)
-
-
----   
   
   
-## Design  
+# Design & Media
 
-### **Color Palette**  
+## Color Palette  
 
 Here is the colour palette, however the main colour purple was chosen as it is often associated with royalty, luxury, and mystery. It is also often associated with magic, mysticism, and the unknown, which can help to create a sense of mystery and awe around the dragon, making it feel more magical and otherworldly.  
   
 ![colour theme swatches](assets/images/palette.png)  
   
   
-### **Typography**  
+## Typography 
   
 [Google Fonts](https://fonts.google.com/) The following text font was chosen for the entire website. Using this font in  an interactive game enhances the overall style, making the game more approachable, and with personality.   
   
 ![google Fonts Poor Story](assets/images/font.jpg)
 
         
-### **Images**  
+## Images
   
 All Images and graphics were created via Canva. I have taken the time to design every scene cover to ensure that the website gives an interactive and narrative feel to it. [Canva](https://www.canva.com/)
 
 ![screenshot of navbar](assets/images/three.png) 
 
-### **Audio** 
+## Audio
 
 Added audio as an interactive element to enhance the player's experience.
 
 [Royalty Free Music by Benjamin Tissot](https://www.bensound.com/royalty-free-music/track/birth-of-a-hero/) 
 
----  
-    
 
 ## Desktop & Mobile View  
  
