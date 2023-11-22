@@ -38,11 +38,10 @@ I want everyone of all ages to have fun with their own unique journey through th
     - [Typography](#typography)
     - [Images](#images)
     - [Audio](#audio)
- - [Audits](#audits)
+ - [Testings](#audits)
       - [HTML Validation](#html-validation)
       - [CSS Validation](#css-validation)
       - [Javascript Validation](#javascript-validation)
-      - [Feedback](#feedback)
       - [Bugs & Fixes](#bugs-fixes)
  - [Deployment](#deployment)
       - [How to Deploy](#how-to-deploy)
@@ -159,6 +158,7 @@ A wireframe was executed  to plan and organise the content and functionality of 
 ![Wireframe Story](assets/images/wireframestory.jpg)
 
 ## Features
+
 ### Background Music  
 ![audiobox](assets/images/audiobox.png)
 <br>
@@ -186,6 +186,27 @@ The choices box serves as a guide, providing crucial information about gameplay,
 ![visuals](assets/images/visuals.png)
 <br>
 Visuals in a game are crucial for immersion and storytelling. Matching visuals to the game's scene creates a cohesive and immersive experience, drawing players into the world and enhancing their emotional connection to the game's narrative and environment. 
+
+### Responsiveness 
+
+![Main image](assets/images/amiresponsive.png)
+  
+This website is optimised for different sizes and devices, so that players can access the game from any device with ease.
+
+
+### **Desktop View (Chrome/Opera/Microsoft Edge)**  
+  
+![screenshots of The Hero's Tale website on Chrome](assets/images/chromedesktop.png)
+![screenshots of The Hero's Tale website on Opera](assets/images/operadesktop.png)
+![screenshots of The Hero's Tale website on Edge](assets/images/edgedesktop.png)
+
+### **Mobile View (Chrome/Opera/Microsoft Edge)**  
+  
+![screenshots of The Hero's Tale website on Chrome](assets/images/chromedesktop.png)
+![screenshots of The Hero's Tale website on Opera](assets/images/operamobile.png)
+![screenshots of The Hero's Tale website on Edge](assets/images/edgemobile1.png)
+
+---  
 
 ## Future Features
  - Possible new story branching or continuing the story 
@@ -229,29 +250,6 @@ All Images and graphics were created via Canva. I have taken the time to design 
 Added audio as an interactive element to enhance the player's experience.
 
 [Royalty Free Music by Benjamin Tissot](https://www.bensound.com/royalty-free-music/track/birth-of-a-hero/) 
-
-
-## Desktop & Mobile View  
- 
-### **Desktop & Mobile Differences**  
-![Main image](assets/images/mairesponsive.png)
-  
-This website is optimised for different sizes and devices, so that players can access the game from any device with ease.
-
-
-### **Desktop View (Chrome/Opera/Microsoft Edge)**  
-  
-![screenshots of The Hero's Tale website on Chrome](assets/images/chromedesktop.png)
-![screenshots of The Hero's Tale website on Opera](assets/images/operadesktop.png)
-![screenshots of The Hero's Tale website on Edge](assets/images/edgedesktop.png)
-
-### **Mobile View (Chrome/Opera/Microsoft Edge)**  
-  
-![screenshots of The Hero's Tale website on Chrome](assets/images/chromedesktop.png)
-![screenshots of The Hero's Tale website on Opera](assets/images/operamobile.png)
-![screenshots of The Hero's Tale website on Edge](assets/images/edgemobile1.png)
-
----  
                             
 # Deployment
 
@@ -287,18 +285,9 @@ Source or for more infomraiton: [GitHub](https://docs.github.com/en/repositories
 
 ---  
     
-## Testing  
-
-This website was designed to be usable and readable on all screen sizes.
-  
-### **Testing**    
-
-Testing took place throughout the entire build using Dev Tools on Chrome and on the above real-world devices. The browsers used were:  
-- Chrome  
-- Opera  
-- Edge  
+# Testings  
    
-### **HTML Validation using W3C Validation**  
+## **HTML Validation using W3C Validation**  
 <details open>
 <summary>HTML validation</summary>  
 
@@ -307,7 +296,7 @@ Testing took place throughout the entire build using Dev Tools on Chrome and on 
 
 <br>  
 
-### **CSS Validation using W3C Validation** 
+## **CSS Validation using W3C Validation** 
 
 <details open>
 <summary>CSS validation</summary>  
@@ -317,22 +306,15 @@ Testing took place throughout the entire build using Dev Tools on Chrome and on 
 
 <br>  
 
-### **Javascript Validation using jshint**  
+## **Javascript Validation using jshint**  
 <details open>
 <summary>Javascript validation</summary>  
 
 ![screenshot of html](assets/images/jsvalidator.png)
 </details>    
    
-### **Bugs & Fixes**  
-  
-Images were not responsive, I styled them in css sheets.
-The javascript extension was giving me errors; I deleted it and restored it, and the errors updated and vanished.
+## **Bugs & Fixes**  
 
-### **Unsolved Bugs** 
-
-Applied bootstrap to html but it doesn’t apply to the rest
-Unable to style font size from js 
 
   
 # Technologies Used    
