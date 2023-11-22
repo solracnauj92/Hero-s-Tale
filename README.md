@@ -161,15 +161,47 @@ A wireframe was executed  to plan and organise the content and functionality of 
 ## Features
 ### Background Music  
 ![audiobox](assets/images/audiobox.png)
+<br>
 Adding background music with user-controlled playback to offer  a customisable and immersive experience. 
 <br> It accommodates diverse player preferences, enhances atmosphere, and promotes accessibility.  Providing this feature contributes to a more enjoyable and inclusive gaming experience.
 
-
 ### Input Name
-Personalised Gaming Experience and customisation! Input preferred name, and watch the game come to life. Characters will be addressed by the name the user chooses, making the gaming adventure unique. 
 ![imputname](assets/images/inputname.png)
-  
-  
+<br>
+Personalised Gaming Experience and customisation! Input preferred name. 
+<br> Characters will be addressed by the name the user chooses, making the gaming adventure unique. 
+
+ ### Start Button
+![startbutton](assets/images/startbutton.png)
+<br>
+The start button gives players a clear initiation point, setting the pace and allowing them to begin when ready.
+
+### Choices Boxes
+![choicesboxes](assets/images/choiceboxes.png)
+<br>
+The choices box serves as a guide, providing crucial information about gameplay, the game's objective, and the decisions users will encounter. 
+<br> It enhances user understanding and engagement.
+
+### Visual Story
+![visuals](assets/images/visuals.png)
+<br>
+Visuals in a game are crucial for immersion and storytelling. Matching visuals to the game's scene creates a cohesive and immersive experience, drawing players into the world and enhancing their emotional connection to the game's narrative and environment. 
+
+## Future Features
+ - Possible new story branching or continuing the story 
+
+ - Allowing players to save their progress and pick up from where they left. This would make it easier for them to continue their adventure and not repeat it. 
+
+ - Update overall look and designs and add interactive elements to make the experience more immersive
+
+ - Keep track of the choices players make throughout the game, allowing them to see the consequences of their actions and make more informed decisions.
+
+ - Add social sharing functionality, allowing players to share their progress and choices with friends, creating a sense of community around the game.
+
+ - Implement analytics to track player behaviour and gather data, which can be used to make improvements to the game and create a better experience for players.
+
+ ----
+
 # Design & Media
 
 ## Color Palette  
@@ -220,24 +252,10 @@ This website is optimised for different sizes and devices, so that players can a
 ![screenshots of The Hero's Tale website on Edge](assets/images/edgemobile1.png)
 
 ---  
-                              
-## Future Features  
+                            
+# Deployment
 
--Possible new story branching or continuing the story 
-
--Allowing players to save their progress and pick up from where they left. This would make it easier for them to continue their adventure and not repeat it. 
-
--Update overall look and designs and add interactive elements to make the experience more immersive
-
--Keep track of the choices players make throughout the game, allowing them to see the consequences of their actions and make more informed decisions.
-
--Add social sharing functionality, allowing players to share their progress and choices with friends, creating a sense of community around the game.
-
--Implement analytics to track player behaviour and gather data, which can be used to make improvements to the game and create a better experience for players.
- 
-## Deployment
-
-### **How to deploy**  
+## How to deploy  
 
 GitHub was used to deploy the website. These were the steps taken to acheive this:  
 
@@ -248,6 +266,24 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 5. In the Source section, choose 'main' from the drop-down, select branch menu
 6. Select 'root' from the drop-down folder menu
 7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
+
+## Cloning and Forking
+
+### Cloning a Repository
+
+1. Go to your forked repository on GitHub.
+2. Click on the "Code" button and copy the repository URL.
+3. Open a terminal or command prompt.
+4. Use git clone followed by the repository URL to clone the repository locally: git clone <repository_URL>
+5. You'll have a local copy of the repository on your machine.
+
+### Forking a Repository
+
+1. Visit the GitHub repository you want to fork.
+2. Click on the "Fork" button in the upper right corner of the repository page.
+3. This creates a copy of the repository in your GitHub account.
+
+Source or for more infomraiton: [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)  
 
 ---  
     
